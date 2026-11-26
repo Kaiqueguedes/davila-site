@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projetos — dávila</title>
+<meta name="description" content="Acervo de projetos do escritório dávila, filtrável por tipologia, localização e período.">
+<meta property="og:title" content="Projetos — dávila">
+<meta property="og:description" content="Acervo de projetos do escritório dávila, filtrável por tipologia, localização e período.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="dávila — página inicial">
+      <span class="marca">dávila</span><span class="sub">arquitetura</span>
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="menu" class="nav" aria-label="Principal">
+      <a href="projetos.html" class="on">Projetos</a>
+<a href="o-que-fazemos.html">O que fazemos</a>
+<a href="empresa.html">A empresa</a>
+<a href="davilabs.html">Davilabs</a>
+<a href="contato.html">Contato</a>
+      <a class="cta-nav" href="contato.html">Fale com um arquiteto</a>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+
+<section class="wrap block first">
+  <div class="sec-head">
+    <h1>Projetos</h1>
+    <p class="sec-sub">Filtre o acervo por tipologia, localização ou período.</p>
+  </div>
+  <div class="filtros" role="group" aria-label="Filtros de projetos">
+    <div class="fgrupo">
+      <span class="flabel">Tipologia</span>
+      <button class="fchip on" data-f="cat" data-v="todos">Todos</button>
+      <button class="fchip" data-f="cat" data-v="Empresariais">Empresariais</button>
+      <button class="fchip" data-f="cat" data-v="Saúde">Saúde</button>
+      <button class="fchip" data-f="cat" data-v="Master Plan">Urbanismo</button>
+      <button class="fchip" data-f="cat" data-v="Corporativos">Interiores</button>
+    </div>
+    <div class="fgrupo">
+      <span class="flabel">Localização</span>
+      <button class="fchip on" data-f="loc" data-v="todos">Todas</button>
+      <button class="fchip" data-f="loc" data-v="MG">Minas Gerais</button>
+      <button class="fchip" data-f="loc" data-v="DF">Distrito Federal</button>
+      <button class="fchip" data-f="loc" data-v="SP">São Paulo</button>
+      <button class="fchip" data-f="loc" data-v="RJ">Rio de Janeiro</button>
+    </div>
+  </div>
+  <p class="contador" id="contador" aria-live="polite">6 projetos</p>
+  <div class="grid3" id="lista">
+    <a class="proj" href="#" data-cat="Empresariais" data-loc="MG">
+    <img src="img/proj-1.jpg" alt="Projeto Edifício corporativo" loading="lazy">
+    <div class="proj-meta"><h3>Edifício corporativo</h3>
+    <p>Empresariais · Belo Horizonte · MG · 2024</p></div></a>
+<a class="proj" href="#" data-cat="Saúde" data-loc="DF">
+    <img src="img/proj-2.jpg" alt="Projeto Centro médico" loading="lazy">
+    <div class="proj-meta"><h3>Centro médico</h3>
+    <p>Saúde · Brasília · DF · 2023</p></div></a>
+<a class="proj" href="#" data-cat="Complexo multiuso" data-loc="SP">
+    <img src="img/proj-3.jpg" alt="Projeto Complexo multiuso" loading="lazy">
+    <div class="proj-meta"><h3>Complexo multiuso</h3>
+    <p>Complexo multiuso · São Paulo · SP · 2022</p></div></a>
+<a class="proj" href="#" data-cat="Master Plan" data-loc="MG">
+    <img src="img/proj-4.jpg" alt="Projeto Master plan urbano" loading="lazy">
+    <div class="proj-meta"><h3>Master plan urbano</h3>
+    <p>Master Plan · Contagem · MG · 2021</p></div></a>
+<a class="proj" href="#" data-cat="Corporativos" data-loc="RJ">
+    <img src="img/proj-5.jpg" alt="Projeto Retrofit de sede" loading="lazy">
+    <div class="proj-meta"><h3>Retrofit de sede</h3>
+    <p>Corporativos · Rio de Janeiro · RJ · 2020</p></div></a>
+<a class="proj" href="#" data-cat="Loteamento" data-loc="MG">
+    <img src="img/proj-6.jpg" alt="Projeto Loteamento residencial" loading="lazy">
+    <div class="proj-meta"><h3>Loteamento residencial</h3>
+    <p>Loteamento · Nova Lima · MG · 2019</p></div></a>
+  </div>
+  <p class="vazio" id="vazio" hidden>Nenhum projeto corresponde a esses filtros. Tente outra combinação.</p>
+</section>
+
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <span class="marca">dávila</span>
+        <p class="foot-l">Escritório de arquitetura, urbanismo, interiores e design.<br>
+        Fundado em 1989. ISO 9001 desde 2002.</p>
+      </div>
+      <div>
+        <h3>Navegar</h3>
+        <nav class="foot-nav"><a href="projetos.html">Projetos</a>
+<a href="o-que-fazemos.html">O que fazemos</a>
+<a href="empresa.html">A empresa</a>
+<a href="davilabs.html">Davilabs</a>
+<a href="contato.html">Contato</a>
+<a href="carreiras.html">Carreiras</a></nav>
+      </div>
+      <div>
+        <h3>Belo Horizonte</h3>
+        <p class="foot-l">Av. Augusto de Lima, 479<br>20º andar — Centro<br>
+        <a href="tel:+553133032100">31 3303 2100</a><br>
+        <a href="mailto:bh@davila.arq.br">bh@davila.arq.br</a></p>
+      </div>
+      <div>
+        <h3>Brasília · São Paulo</h3>
+        <p class="foot-l">SRTV/N — Qd. 701, Conj. C<br>Ed. Centro Empresarial Norte ·
+        <a href="tel:+556132989900">61 3298 9900</a><br><br>
+        R. Olimpíadas, 205, Conj. 41<br>Vila Olímpia ·
+        <a href="tel:+551137289349">11 3728 9349</a></p>
+      </div>
+    </div>
+    <p class="foot-b">© 2026 dávila arquitetura. Conteúdo editorial e projetos deste site.</p>
+  </div>
+</footer>
+<script src="js/site.js"></script>
+</body>
+</html>
